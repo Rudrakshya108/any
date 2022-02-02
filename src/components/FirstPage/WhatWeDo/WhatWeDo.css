@@ -1,0 +1,72 @@
+.whatWeDoMainDivInner {
+  display: flex;
+  flex-direction: row;
+}
+
+.firstCircleComponent {
+  flex: 0.5;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.firstCircleComponent img {
+  height: 450px;
+}
+
+.secondDescription {
+  flex: 0.5;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-right: 100px;
+}
+
+.secondDescription p {
+  padding-left: 25%;
+  padding-right: 25%;
+  font-size: 25px;
+}
+
+.secondDescription h1 {
+  color: #557a95;
+  font-size: 50px;
+  margin-top: -5px;
+}
+
+.secondDescription a {
+  text-decoration: none;
+}
+
+.arrowAndReadMore {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.arrow {
+  width: 40px;
+  margin-top: 5px;
+}
+
+.line {
+  border-bottom: 1px solid black;
+
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 790px) {
+  .whatWeDoMainDivInner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .secondDescription {
+    width: 100%;
+  }
+}

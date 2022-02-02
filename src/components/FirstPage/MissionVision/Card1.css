@@ -1,0 +1,91 @@
+.cardBackground {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  margin: 10px;
+}
+
+.card {
+  margin: 10px;
+
+  padding: 10px;
+  height: 40vh;
+  width: 100%;
+  background-color: #557a95;
+  margin-left: 10px;
+}
+
+.cardEmptyDiv {
+  border-right: 1px solid white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: -20px;
+}
+
+.forImage {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contentTitle {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  color: white;
+}
+
+.contentDetails {
+  align-items: center;
+
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 18px;
+}
+
+strong a {
+  text-decoration: underline;
+
+  color: black;
+}
+
+strong a:hover {
+  text-decoration: none;
+}
+
+.contentTitle h3 {
+  letter-spacing: 4px;
+  font-size: 20px;
+}
+
+.contentDetails p {
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 936px) {
+  .cardBackground {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    margin: 10px;
+    margin-top: 5px;
+    padding: 10px;
+    height: 22vh;
+    width: 100%;
+    background-color: #557a95;
+    margin-left: -10px;
+  }
+
+  .contentDetails p {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,23 @@
+.cardBack {
+  display: flex;
+  flex-direction: row;
+  background-color:  #557A95;
+ 
+}
+
+.arrayLine {
+  border-top: 2px solid red;
+}
+
+@media only screen and (max-width: 936px) {
+
+  .cardBack{ 
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    background-color: white;
+    margin-left: 25%;
+    margin-top: -5px;
+  }
+ 
+}

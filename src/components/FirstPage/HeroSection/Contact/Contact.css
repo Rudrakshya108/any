@@ -1,0 +1,37 @@
+.contact {
+  background: white;
+  box-shadow: 4px 3px 8px 1px #969696;
+  -webkit-box-shadow: 10px 8px 8px 1px #969696;
+  width: 100%;
+  height: 100%;
+}
+
+.callUsNow h3 {
+  padding-top: 10px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 100%;
+}
+
+.number p {
+  align-items: center;
+  margin-top: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 790px) {
+  .contact {
+    width: 70%;
+    height: 70%;
+  }
+
+  .callUsNow h3 {
+    font-size: 70%;
+  }
+
+  .number p {
+    font-size: 70%;
+  }
+}

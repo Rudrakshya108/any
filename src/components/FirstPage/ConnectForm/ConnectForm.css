@@ -1,0 +1,99 @@
+.connectForm {
+  display: flex;
+  flex-direction: row;
+}
+
+.letdGetStarted {
+  background-color: #557a95;
+  margin: 30px;
+  height: 380px;
+  width: 50px;
+  margin-left: 100px;
+  padding-bottom: 35px;
+  flex: 0.4;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+}
+
+.letdGetStarted h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 70px;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: 35px;
+}
+
+.letdGetStarted p {
+  padding-left: 70px;
+  padding-right: 5px;
+  font-size: 20px;
+  margin-right: 50px;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  color: white;
+}
+
+.contactForm {
+  flex: 0.7;
+  margin-top: 25px;
+  margin-left: -125px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.connectForm input {
+}
+
+.connectForm input {
+  border: 0;
+
+  outline: 0;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: -300px;
+}
+
+.formLine {
+  border-bottom: 1px solid black;
+  opacity: 0.2;
+  margin-left: 140px;
+  margin-right: 130px;
+}
+
+.connectForm button {
+  padding: 17px;
+  border: 0;
+  background-color: red;
+  color: white;
+  margin-top: 30px;
+  margin-left: -335px;
+}
+
+@media only screen and (max-width: 790px) {
+  .connectForm {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .letdGetStarted {
+    height: auto;
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .contactForm {
+    margin-left: -60px;
+  }
+
+  .formLine {
+    border-bottom: 1px solid black;
+    opacity: 0.2;
+    margin-left: 240px;
+    margin-right: 130px;
+  }
+}
