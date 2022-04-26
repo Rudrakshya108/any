@@ -1,0 +1,142 @@
+.heroBackground {
+  height: 100vh;
+
+  width: 100%;
+}
+
+.columnDivSeparator {
+  display: flex;
+  flex-direction: column;
+}
+
+.divForNameLogo {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -7%;
+}
+
+.dynamicLogo {
+  flex: 0.2;
+  margin-top: 40px;
+  margin-left: 70px;
+}
+
+.divForNameLogo span {
+  font-size: 80%;
+}
+
+.emptySpace {
+  flex: 0.6;
+}
+
+.hamburgerIcon {
+  flex: 0.2;
+  align-items: right;
+  justify-content: right;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.columnInner {
+  display: flex;
+  flex-direction: row;
+}
+
+.firstColumnDiv {
+  flex: 0.3;
+  margin-left: -6px;
+  margin-top: -70px;
+}
+
+.firstColumnDiv .socialIcon {
+  margin: 20px;
+  margin-left: 0px;
+  margin-top: 280px;
+}
+
+.letsCreateSomething h1 {
+  color: #557a95;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.secondColumnDiv {
+  margin-top: 3%;
+}
+
+.secondColumnDiv img {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: -7%;
+}
+
+.CallUs {
+  margin-right: 17%;
+  margin-left: -57%;
+  margin-top: 100%;
+}
+
+.ashaTechComputerImage {
+}
+
+.ashaTechComputerImage img {
+  width: 80%;
+
+  margin-bottom: 60%;
+  margin-left: 10%;
+}
+
+.secondColumnDiv {
+  display: flex;
+}
+
+.firstBlueSep {
+  margin-top: 230px;
+}
+
+.butt {
+  margin-top: -87%;
+}
+.but {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: -100%;
+  margin-left: 44%;
+  margin-right: 44%;
+  color: white;
+  border: 0;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #557a95;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 790px) {
+  .letsCreateSomething h1 {
+    font-size: 70%;
+    margin-top: 20px;
+  }
+
+  .but {
+    font-size: 30%;
+    margin-left: 46%;
+    margin-right: 44%;
+  }
+
+  .firstColumnDiv .socialIcon {
+    margin-top: 180px;
+  }
+
+  .CallUs {
+    margin-right: -23%;
+    margin-left: -17%;
+    margin-top: 30%;
+  }
+
+  .divForNameLogo span {
+    font-size: 40%;
+  }
+}

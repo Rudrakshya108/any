@@ -1,0 +1,77 @@
+.mainDiv .innerMainDiv .firstComponent {
+  display: flex;
+  height: 80px;
+  width: 12%;
+
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+}
+
+.mainDiv .innerMainDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+}
+
+.mainDiv {
+  height: 100px;
+  width: 100%;
+  background-color: #557a95;
+}
+
+.forIcon {
+  height: 40px;
+  width: 40px;
+  margin: 2px;
+  border-radius: 100%;
+
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+}
+
+.forIcon h2 {
+  color: white;
+  margin-top: 15px;
+}
+
+.firstComponent .text {
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  color: white;
+  font-size: 10px;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 790px) {
+  .mainDiv .innerMainDiv .firstComponent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mainDiv .innerMainDiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .forIcon h2 {
+    margin-top: 15px;
+  }
+
+  .text p {
+    margin-bottom: 15px;
+  }
+
+  .mainDiv {
+    height: auto;
+    width: 100%;
+    padding-bottom: 40px;
+    background-color: #557a95;
+    margin-top: -30%;
+  }
+}

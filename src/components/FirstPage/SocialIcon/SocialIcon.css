@@ -1,0 +1,67 @@
+.socialIcons img {
+  height: 32px;
+  width: 32px;
+  margin: 10px;
+}
+
+.instagramImageDiv {
+  border: 1px solid black;
+  border-bottom: none;
+  border-top: none;
+  border-radius: 10%;
+  border-end-end-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.facebookImageDiv {
+  border: 1px solid black;
+  border-bottom: none;
+  border-top: none;
+  border-end-end-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.viberImageDiv {
+  border: 1px solid black;
+  border-bottom: none;
+  border-top: none;
+  border-radius: 10%;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.instagramImage,
+.facebookImage,
+.viberImage {
+  padding-left: 5px;
+  border-style: solid;
+  border-width: thin;
+
+  border-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 5%,
+    rgba(0, 0, 0, 0.3) 5%,
+    rgba(0, 0, 0, 0.3) 95%,
+    rgba(0, 0, 0, 0) 95%
+  );
+
+  border-image-slice: 1;
+}
+
+.instagram {
+  display: flex;
+  flex-direction: row;
+}
+
+.facebook {
+  display: flex;
+  flex-direction: row;
+}
+
+.viber {
+  display: flex;
+  flex-direction: row;
+}

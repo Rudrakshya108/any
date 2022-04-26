@@ -1,0 +1,136 @@
+.footer {
+  background-color: #557a95;
+  width: 100%;
+  height: 325px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.footerLeft {
+  width: 25%;
+}
+
+.footerCenter {
+  width: 25%;
+}
+
+.footerRight {
+  width: 25%;
+}
+
+.footerCenterAndRightBich {
+  width: 25%;
+  margin-left: -70px;
+}
+
+.forLogo {
+  margin-top: -70px;
+}
+
+.forLogoAndDesc .forLogo img {
+  border-radius: 0;
+
+  height: 180px;
+  width: 230px;
+  margin: 70px;
+  margin-bottom: 20px;
+}
+
+.forLogoAndDesc {
+  display: inline-block;
+}
+
+.footerLeft h4,
+.footerCenter h4,
+.footerRight h4,
+.footerCenterAndRightBich h4 {
+  margin: 70px;
+  margin-bottom: 20px;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  color: white;
+}
+
+.forDesc p {
+  color: white;
+}
+
+.uiList ul li {
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding-bottom: 10px;
+  list-style: none;
+}
+
+.uiList ul li a {
+  color: white;
+  margin-left: 35px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.uiList ul li a:hover {
+  color: rgb(1, 2, 1);
+}
+.uiList ul li a img {
+  height: 35px;
+  width: 35px;
+}
+
+.footerMain {
+  display: flex;
+  flex-direction: column;
+}
+
+.liDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.liDiv .locationIcon {
+  flex: 0.2;
+  color: white;
+}
+
+.livDiv .locationDetail {
+  flex: 0.8;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+}
+
+.copyRight p {
+  color: white;
+  background-color: black;
+  text-align: right;
+  margin-right: 10%;
+  border-top: 1px solid white;
+}
+
+@media only screen and (max-width: 936px) {
+  .footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  .footerCenterAndRightBich {
+    width: 25%;
+    margin-left: 0px;
+  }
+
+  .footerCenterAndRightBich ul li {
+    margin-left: -30px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding-bottom: 10px;
+    margin-right: 0px;
+  }
+}
